@@ -134,8 +134,6 @@ return {
         "typescript",
         "vim",
         "yaml",
-        "astro",
-        "css",
       },
     },
   },

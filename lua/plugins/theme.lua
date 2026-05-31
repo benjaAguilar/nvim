@@ -1,1 +1,0 @@
-/home/color/.config/omarchy/current/theme/neovim.lua
