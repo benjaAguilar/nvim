@@ -1,3 +1,17 @@
 return {
   { "ellisonleao/gruvbox.nvim", priority = 1000 },
+  {
+    "navarasu/onedark.nvim",
+    priority = 1000, -- make sure to load this before all the other start plugins
+    config = function()
+      require("onedark").setup({
+        style = "dark",
+      })
+      require("onedark").load()
+    end,
+  },
+  {
+    "olimorris/onedarkpro.nvim",
+    priority = 1000,
+  },
 }
